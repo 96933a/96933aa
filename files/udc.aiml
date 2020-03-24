@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+  
+  <category>
+      <pattern>HELLO</pattern>
+      <template>
+          <random>
+             <li>Hi</li>
+             <li>Hello</li>
+             <li>Nice to see you</li>
+          </random>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>MY FULL NAME is * *</pattern>
+      <template>Hi <star index="1"/>. How are you today Mr <star index="2"/>?</template>
+  </category>
+  
+  <category>
+      <pattern>HOW WAS YOUR DAY TODAY</pattern>
+      <template>It was great, how about ours?</template>
+  </category>
+  
+  <category>
+      <pattern>MY DAY WAS GREAT</pattern>
+      <template>Thats good!</template>
+  </category>
+  
+  <category>
+      <pattern>WHAT IS YOUR FAVORITE SPORT</pattern>
+      <template>Boxing, what about you?</template>
+  </category>
+  
+  <category>
+      <pattern>SAME</pattern>
+      <template>Thats Fantastic!</template>
+  </category>
+  
+  <category>
+      <pattern>WHO IS YOUR FAVORITE BOXER</pattern>
+      <template>
+         <random>
+            <li>Floyd Mayweather</li>
+            <li>Tyson Fury</li>
+            <li>Ryan Garcia</li>
+           <li>KSI</li>
+           <li>Deontay Wilder</li>
+           <li>Mike Tyson</li>
+           <li>Devin Haney</li>
+         </random>
+      </template>
+  </category>
+  
+<category>
+    <pattern>WHO DO YOU THINK IS THE MOST SKILLED BOXER EVER</pattern>
+    <template>
+    <random>
+     <li>Floyd Mayweather</li>
+            <li>Tyson Fury</li>
+            <li>Wladamir Klitscko</li>
+           <li>Muhammed Ali</li>
+           <li>Rocky Marciano</li>
+           <li>Roy Jones Junior</li>
+    </random>
+    </template>
+</category>
+
+<category>
+    <pattern>WHAT IS YOUR FAVORITE WEIGHT CLASS</pattern>
+    <template>
+    <random>
+        <li>Flyweight</li>
+        <li>Featherweight</li>
+        <li>Lightweight</li>
+        <li>Welterweight</li>
+        <li>Middleweight</li>
+        <li>Cruiserweight</li>
+        <li>Light heavyweight</li>
+        <li>Heavyweight</li>
+    </random>
+    </template>
+</category>
+
+<category>
+    <pattern>WHO IS THE MOST ENTERTAINING BOXER</pattern>
+    <template>
+        <random>
+        <li>Conor Mcgregor</li>
+        <li>Prince Naseem Hamed</li>
+        <li>Vasyl Lomachenko</li>
+        <li>Roy Jones Jnr</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>WHY DO YOU LIKE BOXING</pattern>
+    <template>I like boxing because every fighter has their own unique style and it makes the fights more interesting, what about you?</template>
+</category>
+
+<category>
+    <pattern>WHAT WAS YOUR FAVORITE FIGHT TO WATCH</pattern>
+    <template>
+        <random>
+            <li>Fury vs Wilder II</li>
+            <li>Fury vs Wilder I</li>
+            <li>Mayweather vs Mcgregor</li>
+            <li>Joshua vs Klitschko</li>
+            <li>Joshua vs Ruiz I</li>
+            <li>Mayweather vs Pacquiao</li>
+            <li>Klitschko vs Fury</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>DO YOU BOX</pattern>
+    <template>
+        <random>
+            <li>Yes</li>
+            <li>No</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>ARE YOU SOUTHPAW OR ORTHODOX</pattern>
+    <template>
+        <random>
+            <li>Southpaw</li>
+            <li>Orthodox</li>
+        </random>
+    </template>
+</category>
+  
+  <category>
+      <pattern>WHAT FIGHT ARE YOU MOST EXCITED FOR</pattern>
+      <template>
+          <random>
+              <li>Fury vs Wilder III</li>
+              <li>Fury vs Joshua</li>
+              <li>Wilder vs Joshua</li>
+              <li>Garcia vs Haney</li>
+              <li>Tank vs Haney</li>
+              <li>Pacquiao vs Garcia</li>
+          </random>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>THANKS FOR CHATTING BOT</pattern>
+      <template>No problem, have a good night</template>
+  </category>
+  
+  <category>
+      <pattern>YOU TOO</pattern>
+      <template>:)</template>
+  </category>
+  
+
+</aiml>
+
